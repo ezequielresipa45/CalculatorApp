@@ -1,0 +1,23 @@
+.OperationsButton{
+    background-color: rgb(247, 247, 247);
+    color: #3978ff;
+    font-weight: bold;
+    border-color: antiquewhite;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    transition:  .5s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+
+}
+   
+
+
+
+
+.OperationsButton:hover{   background-color: rgba(202, 202, 202, 0.812); cursor: default; }

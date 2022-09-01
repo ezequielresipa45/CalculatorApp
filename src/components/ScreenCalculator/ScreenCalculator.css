@@ -1,0 +1,9 @@
+.containerScreen{
+    background-color: rgb(203, 201, 201);
+    margin: 25px 0 0 0;
+    /* padding: 13px 10px 13px 0; */
+    font-weight: 600;
+    font-size: 30px;
+    text-align: end;
+
+}
