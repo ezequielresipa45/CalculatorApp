@@ -40,37 +40,40 @@ export default function Card() {
         add(p);
         break;
 
-      case k == 46 || k == 8 || k == 27:
+      case k === 46 || k === 8 || k === 27:
         clear();
         break;
 
-      case k == 107:
+      case k === 107:
         add("+");
         break;
 
-      case k == 109:
+      case k === 109:
         add("-");
         break;
 
-      case k == 111:
+      case k === 111:
         add("/");
         break;
 
-      case k == 106:
+      case k === 106:
         add("*");
         break;
 
-      case k == 110 || k == 190:
+      case k === 110 || k === 190:
         add(".");
         break;
 
-      case k == 53:
+      case k === 53:
         add("%");
         break;
 
-      case k == 32 || k == 13:
+      case k === 32 || k === 13:
         setNumber(evaluate(number));
         break;
+
+       default:
+        break; 
     }
   }
 
